@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+        body{font-family: 'Otomanopee One', sans-serif;}
+        
+       
+    
+        
+.container{
+    display:grid;
+    height:100vh;
+    grid-template-rows:400px 75px 50px 40px;
+
+}
+.header{
+    background-image: url("https://i.pinimg.com/originals/b2/06/56/b20656e67dd82633f11eb4f840a81560.jpg ");
+    background-size: cover;
+    background-position: 5% 30%;
+}
+    .quote{
+
+      background-color: rgb(0, 255, 234);
+      font-size: xx-large;
+      text-align: center;
+    }
+    .gallery{
+    background-color:burlywood;
+    display: flex;
+    justify-content: space-evenly;
+
+
+    }
+
+.image,img{
+    width:300px;
+    height:200px;
+    padding-top: 10px;
+}
+.image{
+    transition: transform 25 ease 0.5s;
+}
+   .image:hover{
+       transform: rotate(25deg) scale(0.5);
+   } 
+   @keyframes colorshow {
+    0%{
+        background-color: cyan;
+    }
+    25%{
+        background-color: rgb(255, 0, 0);
+    }
+    35%{
+        background-color: rgb(0, 255, 0);
+    }
+    50%{
+        background-color: rgb(17, 0, 255);
+    }
+    70%{
+        background-color: rgb(255, 0, 157);
+    }
+    100%{
+        background-color: rgb(136, 0, 170);
+
+    }
+   }
+   .footer{
+       background-color: darkcyan;
+       animation-name: colorshow;
+       animation-duration: 5s;
+       animation-iteration-count: infinite;
+       text-align: center;
+       color:rgb(217, 255, 0);
+   }
+h1{
+    color: rgb(0, 255, 55);
+     font-size: xx-large;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"><h1>fire and ice</h1></div>
+        <div class="quote"><p> when fire and ice mix the ice will turn into steam </p></div>
+    </div>
+
+
+    
+    <div class="gallery">
+        <div class="image 1">
+            <a href="https://en.wikipedia.org/wiki/Call_of_Duty:_Advanced_Warfare " target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Advanced_Warfare.jpg/220px-Advanced_Warfare.jpg"> </a>
+
+        </div>
+        <div class="image 2">
+            <a href="https://en.wikipedia.org/wiki/Uncharted_4:_A_Thief%27s_End" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/1/1a/Uncharted_4_box_artwork.jpg"> </a>
+
+        </div>
+
+        <div class="image 3">
+            <a href="https://en.wikipedia.org/wiki/Grand_Theft_Auto_V" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png"> </a>
+
+        </div>
+        <div class="image 4">
+            <a href="https://www.gamespot.com/games/max-payne-3/" target="_blank"><img src="https://www.gamespot.com/a/uploads/scale_medium/mig/0/8/2/1/2220821-12345678.jpg"> </a>
+            
+
+        </div>
+        </div>
+        <div class="footer"><h3>Web page designed -Vanraaj</h3></div>
+
+
+    
+</body>
+</html>
